@@ -1,0 +1,117 @@
+body {
+  background-color: #090B1A;
+  color: white;
+  font-family: 'Lexend Deca', sans-serif;
+  text-align: center;
+}
+
+img {
+  mix-blend-mode: multiply;
+}
+
+h1 {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  width: 350px;
+  padding-bottom: 15px;
+}
+
+h2 {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+
+p {
+  opacity: 0.75;
+  font-size: 0.9rem;
+  line-height: 2;
+  width: 350px;
+}
+
+.main-container {
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  width: 1080px;
+  height: 446px;
+  margin: 200px auto;
+}
+
+.left-container {
+  width: 540px;
+  height: 446px;
+  background-color: #1B1938;
+  text-align: left;
+  padding: 60px 0 0 60px;
+  position: relative;
+}
+
+.word {
+  color: #AA5CDB;
+}
+
+.stat1 {
+  position: absolute;
+  bottom: 120px;
+  left: 60px;
+}
+
+.stat2 {
+  position: absolute;
+  bottom: 120px;
+  left: 200px;
+}
+
+.stat3 {
+  position: absolute;
+  bottom: 120px;
+  left: 330px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 0.75rem;
+}
+
+.right-container {
+  width: 540px;
+  height: 446px;
+  background-color: #AA5CDB;
+  position: absolute;
+  bottom: 0;
+  left: 540px;
+}
+
+
+.attribution {
+  font-size: 11px; text-align: center;
+  margin: 0;
+}
+
+.attribution a {
+   color: #3E52A3;
+ }
+
+
+@media only screen and (max-width:1000px) {
+
+  .main-container {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 540px;
+    height: 892px;
+    margin: 50px auto;
+  }
+
+  .right-container {
+    width: 540px;
+    height: 446px;
+    background-color: #AA5CDB;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
